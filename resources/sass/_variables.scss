@@ -1,0 +1,64 @@
+// Typography
+$family-sans-serif: "Nunito", sans-serif;
+$family-monospace: "Ubuntu Mono", monospace;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$black: #000000;
+
+// Discord Branding
+$blurple: #7289da;
+$greyple: #99aab5;
+$dark-not-black: #2C2F33;
+$nqblack: #23272A;
+$white: #ffffff;
+
+// Body
+$body-background-color: $nqblack;
+
+$primary: $nqblack;
+$info: $cyan;
+$success: $green;
+$warning: $orange;
+$danger: $red;
+$light: $white;
+$dark: $dark-not-black;
+$nqdark: $nqblack;
+$background: $nqblack;
+$text: $white;
+$text-strong: $white;
+$label-color: $white;
+
+$navbar-dropdown-background-color: $nqblack;
+$navbar-dropdown-item-active-background-color: $nqblack;
+$navbar-dropdown-border-top: 2px solid $nqblack;
+$navbar-background-color: $nqblack;
+$navbar-tab-active-background-color: $nqblack;
+
+$notification-radius: 0;
+
+$card-background-color: $dark-not-black;
+$card-color: $white;
+
+// tables
+$table-color: $white;
+$table-background-color: $dark-not-black;
+$table-row-hover-background-color: $nqblack;
+
+// box
+$box-background-color: $dark-not-black;
+$box-color: $white;
+
+// forms
+$input-color: $white;
+$input-background-color: $nqblack;
+$input-border-color: $greyple;
