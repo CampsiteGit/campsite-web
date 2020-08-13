@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'RouteController@index');
-Route::get('/about', function () { return view('about'); });
+Route::get('/about', 'RouteController@about');
+Route::get('/discord', 'RouteController@discord');

@@ -9,14 +9,14 @@
         <span aria-hidden="true"></span>
       </a>
     </div>
-  
+
     <div id="dropdown" class="navbar-menu is-transparent">
       <div class="navbar-start">
         <a class="navbar-item" href="/about">
           About
         </a>
-        <a class="navbar-item" href="/placeholder">
-          Placeholder
+        <a class="navbar-item" href="/discord">
+          Discord
         </a>
         <div class="navbar-item has-dropdown">
           <a class="navbar-link" href="/placeholder">
