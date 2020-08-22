@@ -1,65 +1,24 @@
-@section('title', 'Home')
-@section('content')
-    @extends('layouts.base')
-    <style>
-        @keyframes discord {
-            0% {height:70px; width:250px;}
-             100% {height:500px;width:350px;}
-        }
-        @keyframes discord-c {
-            0% {height:500px;width:350px;}
-            100% {height:70px; width:250px;}
-        }
-        .discord {
-            animation-name: discord-c;
-            animation-duration: 2s;
-            animation-play-state: pause;
-            float:left;
-            height:70px;
-            width:250px;
-
-
-        }
-        .discord:hover {
-            height:500px;
-            width:350px;
-            float:left;
-            animation-name: discord;
-            animation-duration: 2s;
-            animation-play-state: pause;
-        }
-    </style>
-    <section class="hero is-fullheight">
-        <div class="hero-head">@include ('layouts.nav')</div></br></br></br></br>
-        <h1 class="title has-text-centered is-centered is-hidden-mobile" style="font-size: 600%;">
-                The Campsite
-        </h1>
-        <h1 class="title has-text-centered is-centered is-hidden-desktop" style="font-size: 400%;">
-                The Campsite
-        </h1>
-        </br></br>
-        <div class="title is-1 has-text-white has-text-centered is-centered is-hidden-mobile">
-            <u>What is The Campsite?</u></br>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About | The Campsite</title>
+    </head>
+    <body>
+        @include('layouts.nav')
+        <div class="has-text-centered is-lower">
+            <h1 class="has-text-white has-space"><u>About us!</u></h1>
+            <h3 class="has-text-white is-padded">Who are we? What do we do? You came to the right place.
+            We are an ever-growing community on
+            <a class="custom-link" href="https://discord.com/" target="_blank"><u>Discord</u></a>
+            that aims to provide a warm and welcomming feeling to all new members joining us!
+            Interested in joining? Here are a few things to help you decide:
+            </h3>
+            <h3 class="has-text-yellow is-left is-padded-top">• Warm, welcoming community to make you feel right at home.</h3>
+            <h3 class="has-text-yellow is-left is-padded-more">• Interactive channels to share the things you love most.</h3>
+            <h3 class="has-text-yellow is-left is-padded-more">• Monthly giveaways hosted on the 15th.</h3>
         </div>
-        <div class="title is-2 has-text-white has-text-centered is-centered is-hidden-desktop">
-            <u>What is The Campsite?</u></br>
-        </div>
-        <div class="container has-text-centered">
-            <div class="title is-4 has-text-white has-text-left is-hidden-mobile">
-                We are a growing community on Discord where we give all our users a lovely warm welcome!
-                We host monthly giveaways, events and more!
-                We have a variety of channels and self-assignable roles to make the server more interactable!
-            </div>
-        </div>
-        <div class="container has-text-centered">
-            <div class="title is-5 has-text-white has-text-left is-hidden-desktop">
-                We are a growing community on Discord where we give all our users a lovely warm welcome!
-                We host monthly giveaways, events and more!
-                We have a variety of channels and self-assignable roles to make the server more interactable!
-            </div>
-        </div>
-        <div class="container is-centered">
-            <iframe class="discord" src="https://discordapp.com/widget?id=506105941498789888&theme=dark"/>
-        </div>
-    </section>
-@endsection
+    </body>
+</html>
