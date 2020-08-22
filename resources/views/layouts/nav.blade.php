@@ -1,5 +1,5 @@
 <header>
-    <img href="/" class="logo" src="{{ asset('img/thecampsitetext.png') }}">
+<li class="nav__links"><a class="logo-text" href="/">THE CAMPSITE</a></li>
     <nav>
         <ul class="nav__links">
             <li><a href="/">Home</a></li>

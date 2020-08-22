@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 * {
     font-family: "Mukta", monospace;
     box-sizing: border-box;
@@ -25,6 +26,12 @@ li, a, button {
     font-weight: 300;
     text-decoration: none;
 }
+li, button {
+    font-family: "Russo One", "Mukta";
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -47,6 +54,13 @@ a {
     width: 210px;
     /* cursor: pointer; */
 }
+.logo-text {
+    font-family: "Russo One", "Mukta";
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
 .nav__links {
     list-style: none;
 }
@@ -55,6 +69,10 @@ a {
     padding: 0px 20px;
 }
 .nav__links li a {
+    font-family: "Russo One", "Mukta";
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
     transition: all 0.3s ease 0s;
 }
 .nav__links li a:hover {
