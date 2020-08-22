@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <meta http-equiv="refresh" content="0; URL=https://discord.com/invite/campsite/" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport" />
     <meta name="description" content="Check out the The Campsite community on Discord." />
@@ -34,6 +35,7 @@
   </head>
 
   <body>
+    @include('layouts.nav')
     <div id="app-mount"></div><script nonce="OTIsMTYsMjUxLDE5Miw3MSwxMDksNTQsOA==">window.__OVERLAY__ = /overlay/.test(location.pathname)</script><script nonce="OTIsMTYsMjUxLDE5Miw3MSwxMDksNTQsOA==">window.__BILLING_STANDALONE__ = /^\/billing/.test(location.pathname)</script><script nonce="OTIsMTYsMjUxLDE5Miw3MSwxMDksNTQsOA==">window.GLOBAL_ENV = {
         API_ENDPOINT: '//discord.com/api',
         WEBAPP_ENDPOINT: '//discord.com',

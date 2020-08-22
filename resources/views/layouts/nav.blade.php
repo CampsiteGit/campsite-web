@@ -8,5 +8,5 @@
             
         </ul>
     </nav>
-    <a class="cta" href="#"><button>Apply</button></a>
+    <a class="cta" href="/apply"><button>Apply</button></a>
 </header>
