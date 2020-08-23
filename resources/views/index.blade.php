@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
         <meta charset="utf-8">
+        <link rel="icon" href="{{ asset('favicon.png') }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Home | The Campsite</title>
     </head>

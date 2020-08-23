@@ -30,7 +30,7 @@
     <meta name="twitterbot" content="index, follow">
     <link rel="canonical" href="https://discord.com/invite/campsite"/>
     <link rel="stylesheet" href="/assets/0.cab91bfa06a40b76c01a.css" integrity="sha256-FiMEhmHEmXyIwYV/ZGw7KnArKOze9azgEZsFA0cdX4k= sha512-4alltH/Yr68LuklsGTv1Tm/KitTYD03/uL6jlioNB2jUIr+QB06rrgxOHjKC+8jO3JBZOYzGw/2UTDmh5PHQHg==">
-    <link rel="icon" href="/assets/07dca80a102d4149e9736d4b162cff6f.ico" />
+    <link rel="icon" href="{{ asset('favicon.png') }}">
     <title>The Campsite</title>
   </head>
 
