@@ -4,8 +4,8 @@
 <meta name="og:description" content="We are an ever-growing community on Discord that aims to provide a warm welcome to all new members joining us!"/>
 <meta name="og:url" content="https://discord.com/invite/campsite/"/>
 <meta name="og:image" content="{{ asset('img/thecampsitegif.gif') }}"/>
-<meta property="og:image:width" content="512" />
-<meta property="og:image:height" content="512" />
+<meta property="og:image:width" content="64" />
+<meta property="og:image:height" content="64" />
 <meta name="og:border-color" content="#FFFF77"/>
 <meta name="og:color" content="#FFFF77"/>
 
