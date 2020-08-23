@@ -3,10 +3,7 @@
 <meta name="og:title" content="The Campsite - Join today"/>
 <meta name="og:description" content="We are an ever-growing community on Discord that aims to provide a warm welcome to all new members joining us!"/>
 <meta name="og:url" content="https://discord.com/invite/campsite/"/>
-<meta name="apple-mobile-web-app-title" content="The Campsite"/>
-<link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/png">
-<meta property="og:site_name" content="The Campsite"/>
-<link rel="mask-icon" sizes="any" href="{{ asset('img/thecampsitetext.png') }}" color="#FFFF77">
+<meta name='theme-color' content='#FFFF77'>
 
 <!-- Twitter -->
 <meta name="description" content="We are an ever-growing community on Discord that aims to provide a warm welcome to all new members joining us!" />
