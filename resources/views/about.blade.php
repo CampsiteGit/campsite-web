@@ -22,5 +22,8 @@
             <h3 class="has-text-orange is-left is-padded-more">• Interactive channels to share the things you love most.</h3>
             <h3 class="has-text-orange is-left is-padded-more">• Monthly giveaways hosted on the 15th.</h3>
         </div>
+        <div class="is-middle is-lowered is-hidden-mobile">
+            <image src="{{ asset('img/giveaway.png') }}"></image>
+        </div>
     </body>
 </html>
