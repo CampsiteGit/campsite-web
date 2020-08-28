@@ -25,9 +25,9 @@
             <div class="dropdown has-space">
             <button class="dropbtn">Hover or tap to select a platform</button>
                 <div class="dropdown-content">
-                    <a class="custom-link" href="/discord">Discord</a>
-                    <a class="custom-link" href="https://twitter.com/the_campsite">Twitter</a>
-                    <a class="custom-link" href="https://instagram.com/campsite.life">Instagram</a>
+                    <a class="custom-link" target="_blank" href="/discord">Discord</a>
+                    <a class="custom-link" target="_blank" href="https://twitter.com/the_campsite">Twitter</a>
+                    <a class="custom-link" target="_blank" href="https://instagram.com/campsite.life">Instagram</a>
                 </div>
             </div>
         </div>
