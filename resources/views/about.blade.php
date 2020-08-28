@@ -21,9 +21,15 @@
             <h3 class="has-text-orange is-left is-padded-top">• Warm, welcoming community to make you feel right at home.</h3>
             <h3 class="has-text-orange is-left is-padded-more">• Interactive channels to share the things you love most.</h3>
             <h3 class="has-text-orange is-left is-padded-more">• Monthly giveaways hosted on the 15th.</h3>
-        </div>
-        <div class="is-middle is-lowered is-hidden-mobile">
-            <image src="{{ asset('img/giveaway.png') }}"></image>
+            <h1 class="has-text-white has-more-space"><u>Socials</u></h1>
+            <div class="dropdown has-space">
+            <button class="dropbtn">Hover or tap to select a platform</button>
+                <div class="dropdown-content">
+                    <a class="custom-link" href="/discord">Discord</a>
+                    <a class="custom-link" href="https://twitter.com/the_campsite">Twitter</a>
+                    <a class="custom-link" href="https://instagram.com/campsite.life">Instagram</a>
+                </div>
+            </div>
         </div>
     </body>
 </html>
