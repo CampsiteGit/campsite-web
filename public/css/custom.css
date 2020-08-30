@@ -130,6 +130,18 @@ button:hover {
 .has-text-yellow {
     color: #FFFF77;
 }
+.is-underlined {
+    text-decoration: underline;
+}
+yellow {
+    color: #FFFF77;
+}
+orange {
+    color: #FFA647;
+}
+pink {
+    color: #ffaabb;
+}
 .has-text-orange {
     color: #FFA647;
 }

@@ -16,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'RouteController@index');
 Route::get('/about', 'RouteController@about');
 Route::get('/apply', 'RouteController@apply');
+Route::get('/stats', 'RouteController@stats');
 Route::get('/discord', 'RouteController@discord');
