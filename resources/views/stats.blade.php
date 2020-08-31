@@ -12,8 +12,8 @@
         @include('layouts.nav')
         <div class="has-text-centered is-lower">
             <h1 class="has-text-white has-space"><u>Stats!</u></h1>
-            <h3 class="has-text-white is-padded-top">In <orange>The Campsite</orange>, we currently have <yellow class="is-underlined" id="total_members">...</yellow> members. We have a total of <yellow class="is-underlined" id="boost_count">...</yellow> boosters which means we have boost level <yellow class="is-underlined" id="boost_level">...</yellow>!</br>
-            Our amazing boosters:</br></br><pink id="boosters">...</orange></h3>
+            <h3 class="has-text-white is-padded-top">In <orange>The Campsite</orange>, we currently have <yellow class="is-underlined" id="total_members">...</yellow> members. We have a total of <yellow class="is-underlined" id="boost_count">...</yellow> boosters which means we are a level <yellow class="is-underlined" id="boost_level">...</yellow> guild!</br>
+            Much love to our amazing boosters:</br></br><pink id="boosters">...</orange></h3>
         </div>
     </body>
     <script src="{{ asset('js/get_members.js') }}"></script>
