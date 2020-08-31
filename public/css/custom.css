@@ -139,6 +139,15 @@ orange {
 pink {
     color: #ffaabb;
 }
+white {
+    color: #ffffff;
+}
+green {
+    color: #90ee90;
+}
+red {
+    color: #f05151;
+}
 strong {
     font-weight: 700;
 }

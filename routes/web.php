@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'RouteController@index');
+Route::get('/mc', 'RouteController@mc');
 Route::get('/about', 'RouteController@about');
 Route::get('/apply', 'RouteController@apply');
 Route::get('/stats', 'RouteController@stats');

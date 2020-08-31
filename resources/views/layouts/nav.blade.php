@@ -5,6 +5,7 @@
             <li><a href="/about">About</a></li>
             <li><a href="/stats">Stats</a></li>
             <li><a href="/discord">Discord</a></li>
+            <li><a href="/mc">Minecraft</a></li>
             
         </ul>
     </nav>
