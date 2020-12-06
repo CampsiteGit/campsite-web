@@ -10,6 +10,7 @@
     </head>
     <body>
         @include('layouts.nav')
+        @include('layouts.snow')
         <div class="has-text-centered is-middle">
             <h1 class="has-text-white has-space"><u>404 | Not found</u></h1></br>
             <h3 class="has-text-white" id="completed">Returning home in <u class="has-text-yellow" id="countdown">10</u> seconds...</h3>

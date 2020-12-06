@@ -10,6 +10,7 @@
     </head>
     <body>
         @include('layouts.nav')
+        @include('layouts.snow')
         <div class="has-text-centered is-lower">
             <h1 class="has-text-white"><u>The Official Campsite Minecraft Server!</u></h1>
             <h3 class="has-text-white is-padded-top has-space">The Campsite has recently opened up a Minecraft server! You can find some more information about it below.</h3>

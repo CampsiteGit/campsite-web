@@ -10,6 +10,7 @@
     </head>
     <body>
         @include('layouts.nav')
+        @include('layouts.snow')
         <div class="has-text-centered is-middle">
             <h1 class="has-text-white has-space"><u>The Campsite</u></h1>
             <h3 class="has-text-white is-custom">Welcome to the official website for the campsite community!<br>

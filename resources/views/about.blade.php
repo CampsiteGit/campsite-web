@@ -10,6 +10,7 @@
     </head>
     <body>
         @include('layouts.nav')
+        @include('layouts.snow')
         <div class="has-text-centered is-lower">
             <h1 class="has-text-white has-space"><u>About us!</u></h1>
             <h3 class="has-text-white is-padded">Who are we? What do we do? You came to the right place.</br></br>

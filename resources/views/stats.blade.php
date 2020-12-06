@@ -10,6 +10,7 @@
     </head>
     <body>
         @include('layouts.nav')
+        @include('layouts.snow')
         <div class="has-text-centered is-lower">
             <h1 class="has-text-white has-space"><u>Stats!</u></h1>
             <h3 class="has-text-white is-padded-top">In <orange>The Campsite</orange>, we currently have <yellow class="is-underlined" id="total_members">...</yellow> members. We have a total of <yellow class="is-underlined" id="boost_count">...</yellow> boosters which means we are a level <yellow class="is-underlined" id="boost_level">...</yellow> guild!</br>

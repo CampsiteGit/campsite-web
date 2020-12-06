@@ -11,5 +11,6 @@
     </head>
     <body>
         @include('layouts.nav')
+        @include('layouts.snow')
     </body>
 </html>
